@@ -144,6 +144,9 @@
 #define INCLUDE_xTimerPendFunctionCall           1
 
 /* Additional settings can be defined in the property Settings > User settings > Definitions of the FreeRTOS component */
+#if (configUSE_TRACE_FACILITY)
+#include "trcRecorder.h"
+#endif
 
 /* This demo makes use of one or more example stats formatting functions.  These
 format the raw data provided by the uxTaskGetSystemState() function in to human
@@ -185,8 +188,4 @@ PRIORITY THAN THIS! (higher priorities are lower numeric values. */
 #define configUSE_TICKLESS_IDLE                  0 
 #define configEXPECTED_IDLE_TIME_BEFORE_SLEEP    2 
 #define configUSE_TICKLESS_IDLE_DECISION_HOOK    0 
-
-#if (configUSE_TRACE_FACILITY)
-#include "trcRecorder.h"
-#endif
 #endif /* FREERTOS_CONFIG_H */
