@@ -311,7 +311,11 @@ unsigned char prvTraceIsSchedulerSuspended(void);
 #endif
 
 #ifndef TRACE_ENTER_CRITICAL_SECTION
-	#error "This hardware port has no definition for critical sections! See http://percepio.com/2014/10/27/how-to-define-critical-sections-for-the-recorder/"
+//	#error "This hardware port has no definition for critical sections! See http://percepio.com/2014/10/27/how-to-define-critical-sections-for-the-recorder/"
+/* FreeRTOS v8.0 or later */
+#define TRACE_ALLOC_CRITICAL_SECTION() UBaseType_t __irq_status;
+#define TRACE_ENTER_CRITICAL_SECTION() {__irq_status = portSET_INTERRUPT_MASK_FROM_ISR();}
+#define TRACE_EXIT_CRITICAL_SECTION() {portCLEAR_INTERRUPT_MASK_FROM_ISR(__irq_status);}
 #endif
 
 

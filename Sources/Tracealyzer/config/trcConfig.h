@@ -82,7 +82,7 @@ extern "C" {
  * See trcHardwarePort.h for available ports and information on how to
  * define your own port, if not already present.
  ******************************************************************************/
-#define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NXP_LPC210Xw
+#define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_HWIndependent
 
 /*******************************************************************************
  * Configuration Macro: TRC_CFG_RECORDER_MODE
