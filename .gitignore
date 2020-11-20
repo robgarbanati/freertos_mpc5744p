@@ -1,0 +1,5 @@
+!Project_Settings/
+.freertos_mpc5744p.g_c
+.freertos_mpc5744p.g_x
+Debug_FLASH/
+Debug_RAM/
