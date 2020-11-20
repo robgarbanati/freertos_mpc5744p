@@ -1,0 +1,103 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="8">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/MPC57xx"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/FreeRTOS_C55/Source/include"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/FreeRTOS_C55/Source/portable/GCC/PowerPC_Z4"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5744P/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5744P/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Symbols</name>
+      <values lines_count="1">
+        <Line>USING_OS_FREERTOS</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Assembler_Symbols</name>
+      <values lines_count="2">
+        <Line>USING_OS_FREERTOS</Line>
+        <Line>CPU_MPC5744P</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MPC5744P_144"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Documentation/freertos_mpc5744p.txt" FileDate="2020-11-20, 10:44:14" FileAge="1605897854652" FileType="3072" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/mpu_prototypes.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715277" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/portable/GCC/PowerPC_Z4/port.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715331" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/deprecated_definitions.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715260" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/mpu_wrappers.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715281" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/task.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715306" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/portable/GCC/PowerPC_Z4/cpu_defines.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715327" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/semphr.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715298" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/queue.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715293" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714160" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/StackMacros.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715302" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5744P/include/MPC5744P.h" FileDate="2020-11-05, 10:41:51" FileAge="1604601711484" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2020-11-20, 10:44:14" FileAge="1605897854592" FileType="45637" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/queue.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715368" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/timers.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715311" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/FreeRTOS.h" FileDate="2020-11-19, 22:30:10" FileAge="1605853810355" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2020-11-05, 10:41:54" FileAge="1604601714156" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2020-11-20, 10:44:14" FileAge="1605897854601" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2020-11-05, 10:41:50" FileAge="1604601710479" FileType="262144" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2020-11-20, 10:44:14" FileAge="1605897854590" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager_MPC57xx.c" FileDate="2020-11-05, 10:41:54" FileAge="1604601714670" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/portable/GCC/PowerPC_Z4/porttimer.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715342" FileType="262144" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2020-11-05, 10:41:50" FileAge="1604601710470" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2020-11-20, 10:44:14" FileAge="1605897854595" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/devices/MPC5744P/include/MPC5744P_features.h" FileDate="2020-11-05, 10:41:51" FileAge="1604601711493" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/clock_MPC57xx.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714379" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/projdefs.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715290" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cgm_hw_access.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714371" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/tasks.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715372" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/clock_MPC57xx.c" FileDate="2020-11-05, 10:41:54" FileAge="1604601714375" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714176" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/event_groups.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715264" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5744P/startup/system_MPC5744P.h" FileDate="2020-11-05, 10:41:51" FileAge="1604601711628" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/timers.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715378" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2020-11-05, 10:41:27" FileAge="1604601687816" FileType="128" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/portable/GCC/PowerPC_Z4/portasm.s" FileDate="2020-11-05, 10:41:55" FileAge="1604601715335" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_siul2_hw_access.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714745" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2020-11-05, 10:41:54" FileAge="1604601714732" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/event_groups.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715250" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5744P/startup/system_MPC5744P.c" FileDate="2020-11-05, 10:41:51" FileAge="1604601711623" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_siul2_hw_access.c" FileDate="2020-11-05, 10:41:54" FileAge="1604601714741" FileType="262144" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2020-11-05, 10:41:50" FileAge="1604601710478" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/portable/GCC/PowerPC_Z4/portmacro.h" FileDate="2020-11-20, 10:03:31" FileAge="1605895411157" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/mc_me_hw_access.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714387" FileType="262144" />
+      <File Name="Generated_Code/FreeRTOSConfig.h" FileDate="2020-11-20, 10:44:14" FileAge="1605897854606" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cgmcs_hw_access.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714367" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/croutine.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715246" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/portable.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715286" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714254" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2020-11-05, 10:41:54" FileAge="1604601714356" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/croutine.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715255" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714737" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/include/list.h" FileDate="2020-11-05, 10:41:55" FileAge="1604601715272" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714276" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2020-11-20, 10:44:14" FileAge="1605897854619" FileType="45637" CompNumb="9" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/portable/MemMang/heap_2.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715351" FileType="262144" />
+      <File Name="SDK/rtos/FreeRTOS_C55/Source/list.c" FileDate="2020-11-05, 10:41:55" FileAge="1604601715318" FileType="262144" />
+      <File Name="Documentation/freertos_mpc5744p_Settings.xml" FileDate="2020-11-20, 10:44:14" FileAge="1605897854638" FileType="3072" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2020-11-20, 10:44:14" FileAge="1605897854612" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/FreeRTOS.c" FileDate="1969-12-31, 15:59:59" FileAge="-1" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/devices/common/s32_core_e200.h" FileDate="2020-11-05, 10:41:50" FileAge="1604601710474" FileType="262144" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2020-11-05, 10:41:54" FileAge="1604601714164" FileType="262144" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>2</CodeGenReference>
+</CodeGenerationInfo>
