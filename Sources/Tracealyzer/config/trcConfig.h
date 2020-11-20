@@ -82,7 +82,7 @@ extern "C" {
  * See trcHardwarePort.h for available ports and information on how to
  * define your own port, if not already present.
  ******************************************************************************/
-#define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NXP_LPC210X
+#define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NXP_LPC210Xw
 
 /*******************************************************************************
  * Configuration Macro: TRC_CFG_RECORDER_MODE
@@ -125,7 +125,7 @@ extern "C" {
  * TRC_FREERTOS_VERSION_10_4_0				If using FreeRTOS v10.4.0
  * TRC_FREERTOS_VERSION_10_4_1				If using FreeRTOS v10.4.1 or later
  *****************************************************************************/
-#define TRC_CFG_FREERTOS_VERSION FREERTOS_VERSION_NOT_SET
+#define TRC_CFG_FREERTOS_VERSION TRC_FREERTOS_VERSION_9_0_0
 
 /*******************************************************************************
  * TRC_CFG_SCHEDULING_ONLY
