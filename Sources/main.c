@@ -101,6 +101,7 @@ int main(void)
 {
   /* Write your local variable definition here */
 
+
   /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
   #ifdef PEX_RTOS_INIT
     PEX_RTOS_INIT();                   /* Initialization of the selected RTOS. Macro is defined by the RTOS component. */
@@ -115,9 +116,10 @@ int main(void)
     PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
 
 #if START_OS_DEMO
-  xTaskCreate( vLEDTask, ( const char * const ) "LedTask", configMINIMAL_STACK_SIZE, (void*)0, mainLED_TASK_PRIORITY, NULL );
-  xTaskCreate( vLEDTask, ( const char * const ) "LedTask", configMINIMAL_STACK_SIZE, (void*)1, mainLED_TASK_PRIORITY+1, NULL );
-  xTaskCreate( vLEDTask, ( const char * const ) "LedTask", configMINIMAL_STACK_SIZE, (void*)2, mainLED_TASK_PRIORITY+2, NULL );
+    vTraceEnable(TRC_START);
+    xTaskCreate( vLEDTask, ( const char * const ) "LedTask", configMINIMAL_STACK_SIZE, (void*)0, mainLED_TASK_PRIORITY, NULL );
+    xTaskCreate( vLEDTask, ( const char * const ) "LedTask", configMINIMAL_STACK_SIZE, (void*)1, mainLED_TASK_PRIORITY+1, NULL );
+    xTaskCreate( vLEDTask, ( const char * const ) "LedTask", configMINIMAL_STACK_SIZE, (void*)2, mainLED_TASK_PRIORITY+2, NULL );
 
   // Start the scheduler.
   vTaskStartScheduler();
